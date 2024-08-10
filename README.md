@@ -13,10 +13,14 @@ Automatic icon and splash screen resizing tool. Helpful for quickly generating i
 It automatically resizes and copies your ```icon.png``` and ```splash.png``` files to the platform dedicated directories.
 
 ---
-<!-- ## Installation
+## Installation
+To install the image-res-generator globally, run:
 
-    $ npm install image-res-generator -g
---- -->
+```
+npm install -g image-res-generator
+```
+This will make the irgen command available globally on your system.
+
 
 ## Usage
 ### Required files
@@ -45,6 +49,7 @@ You can use this [template](https://code.ionicframework.com/resources/splash.psd
 
 
 ### Command line
+To generate the resized images, use:
 
 ```bash
     $ image-res-generator
@@ -121,7 +126,6 @@ Supported platforms:
 ---
 
 ## Upcoming tasks
-- Fix installation as an npm package. 
 - Copy assets to android/ios capacitor folders.
 - Add options for Crop resizing strategy
 - Update image configurations for all platforms   
