@@ -1,6 +1,6 @@
 {
   "name": "image-res-generator",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "description": "Generates icon & splash screen for iOS, Android, PWA's and other major platforms using javascript only.",
   "main": "src/index.js",
   "preferGlobal": true,
